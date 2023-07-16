@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel='stylesheet' href='index.css'>
+  <link rel='icon' href='images/icon.png'>
+  <script src='index.js'></script>
+  <title>A.X.E.L</title>
+</head>
+<body id='bg' class='bg'>
+  <center>
+    <div id='loader' class='loader'></div>
+    <div id='content' class='content'>
+      <h1 class='logo'>A.X.E.L</h1>
+      <p>Welcome to this website</p><br>
+      <p class='click' onclick='open_window()'>|Mohamed Gharbi|</p>
+      <canvas id='c'></canvas>
+      <div id='window'>
+        <div class='main'>
+          <img class='close' src='images/close.png' onclick='close_window()'>
+          <input type='password' placeholder='password' id='password'><br><br>
+          <input type='button' value='open' id='button' onclick='main()'>
+        </div>
+      </div>
+    </div>
+  </center>
+  <canvas id='starField'></canvas>
+  <audio src='audios/sound.mp3' id='sound' controls></audio>
+</body>
+</html>
